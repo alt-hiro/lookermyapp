@@ -34,7 +34,7 @@ view: sample_jp {
   }
 
   measure: profit {
-    type: number
+    type: sum
     sql: ${TABLE}."利益" ;;
   }
 
@@ -64,7 +64,7 @@ view: sample_jp {
   }
 
   measure: Amount {
-    type: number
+    type: sum
     sql: ${TABLE}."数量" ;;
   }
 
@@ -79,7 +79,7 @@ view: sample_jp {
   }
 
   measure: Sales {
-    type: number
+    type: sum
     sql: ${TABLE}."売上" ;;
   }
 
